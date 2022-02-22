@@ -56,5 +56,22 @@ footer a {
 }
 section {
     padding: 60px;
+}
+/* hero styling, need to figure out how to reference hero directly */
+.hero {
     background-image: url("../images/hero-bg.jpg");
+    height:600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.hero-form {
+    background-color: #fce138;
+    color: #024e76;
+    padding: 20px;
+    width: 500px;
+    border:solid 3px #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
 }
