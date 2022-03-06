@@ -119,11 +119,13 @@ section {
     padding:10px 20px;
     font-size: 16px;
 }
+
+/*section title styles*/
+
 .section-title {
     font-size: 55px;
-    color: #024e76;
     border-bottom: 3px solid;
-    display: inline-block;
+    color: #024e76;
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
@@ -135,6 +137,9 @@ section {
 .secondary-border {
     border-color: #39a6b2;
 }
+
+/*end section title style*/
+
 .intro p {
     color: #39a6b2;
     font-size: 20px;
@@ -142,6 +147,9 @@ section {
     width: 80%;
     margin: 0 auto;
     text-align: center;
+}
+.steps {
+    background: #fce138;
 }
 .step {
     margin: 50px auto;
@@ -152,9 +160,6 @@ section {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-}
-.steps {
-    background: #fce138;
 }
 .step h3 {
     color: #024e76;
@@ -167,26 +172,26 @@ section {
     flex-wrap: wrap;
     align-items: center;
 }
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+.step-img img {
+    max-width: 100%;
+}
+.step-text {
+    flex: 12;
+}
 .step-text p {
     color: #39a6b2;
     font-size: 18px;
-    flex: 12;
 }
 .step-text h4 {
     font-size: 26px;
     line-height: 1.5;
     color:#024e76   
 }
-.step-img {
-    flex:1 12%;
-    margin-right: 20px;
-}
-.step-img img {
-    max-width: 100%;
-}
-.steps span {
-    font-size: 38px;
-}
+
 .trainers {
 }
 .trainer {
